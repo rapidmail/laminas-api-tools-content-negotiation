@@ -17,6 +17,16 @@
         "chat": "https://laminas.dev/chat",
         "forum": "https://discourse.laminas.dev"
     },
+    "repositories": {
+        "laminas-api-tools-api-problem": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-api-problem"
+        },
+        "laminas-api-tools-hal": {
+            "type": "vcs",
+            "url": "https://github.com/rapidmail/laminas-api-tools-hal"
+        }
+    },
     "config": {
         "sort-packages": true,
         "platform": {
@@ -42,8 +52,7 @@
         "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
         "laminas/laminas-stdlib": "^2.7.8 || ^3.2.1",
         "laminas/laminas-validator": "^2.8.1",
-        "laminas/laminas-view": "^2.8.1",
-        "laminas/laminas-zendframework-bridge": "^1.0"
+        "laminas/laminas-view": "^2.8.1"
     },
     "require-dev": {
         "laminas-api-tools/api-tools-hal": "^1.10",
